@@ -1,4 +1,4 @@
-# paperclip-compression
+# paperclip-smusher
 
 JPEG and PNG compression processor for Paperclip.
 
