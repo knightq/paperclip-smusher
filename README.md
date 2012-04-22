@@ -11,6 +11,6 @@ paperclip-smusher requires Paperclip gem, [jpegtran](http://jpegclub.org) and [o
 Add to your Gemfile
 
 ````ruby
-gem "paperclip-smusher", "~> 0.1.1"
+gem "paperclip-smusher", "~> 0.2.0"
 ````
 

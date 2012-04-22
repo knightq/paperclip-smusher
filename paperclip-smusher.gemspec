@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "paperclip-smusher"
-  s.version     = "0.1.1"
-  s.date        = "2012-02-10"
+  s.version     = "0.2.0"
+  s.date        = "2012-04-22"
   s.summary     = "Image compression for Paperclip"
   s.description = "JPEG and PNG compression for Paperclip gem"
   s.author      = "Andrea Salicetti"
