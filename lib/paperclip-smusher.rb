@@ -44,7 +44,7 @@ module Paperclip
         raise Paperclip::CommandNotFoundError.new("Could not run the `convert` command. Please install ImageMagick.")
       rescue Exception => e
         Rails.logger.error "There was an error processing the thumbnail for #{@basename}. Check imagemagick, jpegtran and pngcrush installed."
-        HoptoadNotifier.notify(:error_class => "Paperclip - images optimization", :error_message => "Paperclip ERROR: #{e.message}")
+        Rails.logger.error e.message
       end
 
       dst.size > 0 ? dst : conv
