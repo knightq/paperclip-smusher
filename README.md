@@ -1,4 +1,5 @@
 # paperclip-smusher
+[![Dependency Status](https://gemnasium.com/knightq/paperclip-smusher.png)](https://gemnasium.com/knightq/paperclip-smusher)
 
 JPEG and PNG compression processor for Paperclip.
 
