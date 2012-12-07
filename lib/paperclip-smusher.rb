@@ -33,7 +33,7 @@ module Paperclip
             # Part of libjpeg-progs deb package
             success = Paperclip.run('jpegtran', "-copy none -optimize -perfect :source > :dest", :source => File.expand_path(conv.path), :dest => File.expand_path(dst.path))
           when 'PNG'
-            success = Paperclip.run('pngcrush', "-rem alla -reduce -brute :source :dest", :source => File.expand_path(conv.path), :dest => File.expand_path(dst.path))
+            success = Paperclip.run('pngcrush', "-q -rem alla -reduce -brute :source :dest", :source => File.expand_path(conv.path), :dest => File.expand_path(dst.path))
           else
             dst = conv
           end
